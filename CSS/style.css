@@ -1,0 +1,739 @@
+body{
+    background-color: rgb(211, 211, 211);
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}
+
+/* ------------navbar----------- */
+.nav-container{
+    background-color: rgb(250, 250, 250);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: sticky;
+    top: 0;
+}
+#logo-pnc{
+    width: 50px;
+    padding: 5px 5px 5px 20px;
+}
+.nav-menu{
+    width: 600px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container a{
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+.nav-container a:hover{
+    color: rgb(2, 37, 151);
+    border-bottom: 1px solid blue;
+}
+
+/*--------------- header -------------- */
+header{
+    background-color: #f1f1f1;
+    margin: 0%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+#bg{
+    width: 100%;
+    height: 89%;
+}
+#welcome{
+    margin: 0%;
+    width: 100%;
+    height: 96.5%;
+    flex-shrink: 8;
+}
+
+
+
+/*------------- PNC value ------------- */
+.pn-value-container{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 50px 0px;
+
+}
+.pn-value-container h2{
+    text-align: center;
+    margin-bottom: 70px;
+    color: rgb(80, 153, 248);
+}
+.pn-value{
+    width: 75%;
+    margin-left: 190px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 70px;
+    column-gap: 0px;
+    margin-bottom: 50px;
+
+
+}
+.card-value p{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0%;
+}
+
+.card-value{
+    width: 48%;
+    height: 310px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid white;
+    border-radius: 30px;
+
+    padding: 20px;
+}
+
+
+.card-value h4{
+    /* background-color: #fff; */
+    margin: 0%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    padding: 5px;
+}
+#respect{
+    width: 65px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+#trust{
+    width: 100px;
+}
+#solidarity{
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#respon{
+    width: 80px;
+    margin-top: 20px;
+}
+#deman{
+    width: 150px;
+}
+.card1{
+    border: 10px solid rgb(110, 190, 255) ;
+}
+.card2{
+    border: 10px solid rgb(255, 255, 117) ;
+}
+.card3{
+    border: 10px solid rgb(255, 195, 117) ;
+    width: 70%;
+}
+.card4{
+    margin-left: 180px;
+    border: 10px solid rgb(117, 255, 117) ;
+    width: 50%;
+
+}
+.card5{
+    height:330px ;
+    margin-left: 170px;
+    border: 10px solid rgb(255, 149, 117) ;
+    padding-top: 0%;
+}
+.card5 h4{
+    margin-top: 25px;
+}
+
+/*------------- CANTEEN ------------ */
+.canteen{
+    background-color: #f5f5f5;
+
+}
+.canteen h2{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.canteen p{
+    margin-bottom: 50px;
+}
+.food-name{
+
+    width: 80%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 140px;
+}
+.item{
+    width: 80%;
+    height: 80%;
+    padding-left: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 15px;
+
+}
+.item1{
+    background-image: url(/images/baysrob.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.item1 h4{
+    background-color: #fff;
+    width: 80px;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+.item2{
+    background-image: url(/images/charbl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.item2 h4{
+    background-color: #fff;
+    width: 120px;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+.item3{
+    background-image: url(/images/nombj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.item3 h4{
+    background-color: #f0f0f0;
+    width: 60px;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+.item4{
+    background-image: url(/images/kkor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.item4 h4{
+    background-color: #ffffff;
+    width: 70px;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+h3{
+    text-align: center;
+}
+
+table{
+    
+    width: 77.5%;
+    margin-left: 155px;
+    border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid;
+}
+td{
+    padding: 10px;
+}
+.canteen p{
+    text-align: center;
+}
+/* ---------- Sport --------- */
+.sport {
+    background-color: #ffffff;
+    padding: 50px;
+    
+}
+.sport img{
+    width: 95%;
+}
+.sport img:hover{
+    width: 100%;
+}
+#voll{
+    height: 99%;
+}
+.sport-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* ---------Aerobic ------- */
+.aerobic{
+
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+.aerobic img{
+    width: 95%;
+}
+.aerobic img:hover{
+    width: 100%;
+}
+.aerobic-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* -------- Contact us -------- */
+.contactus{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.form-logo{
+    width: 80%;
+    background-color: #fff;
+    margin-left: 60px;
+    padding: 30px;
+    border-radius: 20px 0px 0px 20px;
+
+}
+.form-logo img{
+    width: 100px;
+    margin-left: 100px;
+}
+.form-logo h4{
+    font-size: 20px;
+    color:  #1ea9fa;
+    padding-left: 80px;
+}
+
+.form-create{
+    width: 80%;
+    background-color: #fff;
+    padding: 30px;
+    border-left: 1px solid black;
+    border-radius: 0px 20px 20px 0px;
+}
+.form-create h4{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    color:  #23abfa;
+}
+.form-create input{
+    background-color: whitesmoke;
+    width: 95%;
+    padding: 7px;
+    margin: 7.5px 0px 15px 0px;
+    border: none;
+    border-radius: 5px;
+
+}
+::placeholder{
+    color: rgb(131, 130, 130);
+}
+.form-create button{
+    width: 50%;
+    padding: 5px;
+    margin-left: 23%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #73cbfd;
+}
+.form-create p{
+    text-align: center;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fb{
+    width: 40px;
+}
+#telegram{
+    width: 70px;
+}
+#ig{
+    width: 40px;
+}
+
+/* ------------- Google maps ---------- */
+.map{
+    padding: 50px 10px 25PX 10PX;
+    
+    
+}
+
+
+/* ----------- footer ---------- */
+footer{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px;
+}
+.margin{
+    margin-left: 70px;
+}
+#pn-value , #major , #department{
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo{
+    display: flex;
+}
+.footer-logo img{
+    width: 30px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+#pn-value a{
+    margin-top: 5px;
+    color: black;
+}
+#major a{
+    margin-top: 5px;
+    color: black;
+}
+#department a{
+    margin-top: 5px;
+    color: black;
+}
+
+@media(min-width:321px) and (max-width:768px){
+    
+    /*------- header -------- */
+    #bg{
+        width: 100%;
+        height: 98%;
+    }
+    #welcome{
+        margin: 0%;
+        width: 100%;
+        height: 106%;
+        flex-shrink: 8;
+    }
+    
+    /*------- PN value ------ */
+    .pn-value{
+        width: 75%;
+        margin-left: 20%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 70px;
+        column-gap: 0px;
+        margin-bottom: 50px;
+    
+    
+    }
+
+    .card3{
+        border: 10px solid rgb(255, 195, 117) ;
+        width: 50%;
+    }
+    .card2{
+        width: 50%;
+        border: 10px solid rgb(255, 255, 117) ;
+    }
+    .card4{
+        margin-left: 0px;
+        border: 10px solid rgb(117, 255, 117) ;
+        width: 50%;
+    
+    }
+    
+    .card5{
+        height:330px ;
+        margin-left: 55%;
+        border: 10px solid rgb(255, 149, 117) ;
+        padding-top: 0%;
+    }
+
+    /* ------ canteen ------- */
+    .food-name{
+        width: 80%;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 12%;
+    }
+    table{
+        width: 77.5%;
+        margin-left: 12%;
+        border-collapse: collapse;
+    }
+
+    /* ---------Contact ----------- */
+    .contactus{
+        width: 60%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 17%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .form-logo{
+        width: 80%;
+        background-color: #fff;
+        margin-left: 10px;
+        padding: 30px 50px 30px 30px;
+        border-radius: 20px 0px 0px 20px;
+    
+    }
+    .form-logo img{
+        width: 100px;
+        margin-left: 50px;
+    }
+    .form-logo h4{
+        font-size: 20px;
+        color:  #1ea9fa;
+        padding-left: 40px;
+    }
+    /*--------- map ------ */
+    iframe{
+        width: 100%; ;
+    }
+    /*------------ footer ------- */
+    footer{
+        background-color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 20px;
+    }
+    .margin{
+        margin-left: 35px;
+    }
+}
+@media(min-width:0px) and (max-width:320px){
+
+    /*----------- navbar ---------- */
+    .nav-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0.1fr 1fr;
+
+    }
+    #logo-pnc{
+        width: 25px;
+        padding-left: 10px;
+    }
+    .nav-menu{
+        width: 99%;
+        padding-left: 0px;
+    }
+    .nav-container a{
+        font-size: 8px;
+    }
+    /*------- header -------- */
+    #bg{
+        width: 100%;
+        height: 98%;
+    }
+    #welcome{
+        margin: 0%;
+        width: 100%;
+        height: 106%;
+        flex-shrink: 8;
+    }
+    
+    /*------- PN value ------ */
+    .pn-value{
+        width: 75%;
+        margin-left: 1%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 50px;
+        column-gap: 0px;
+        margin-bottom: 50px;
+    
+    
+    }
+    #respect{
+        width: 45px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    
+    }
+    #trust{
+        width: 70px;
+    }
+    #solidarity{
+        width: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    #respon{
+        width: 50px;
+        margin-top: 20px;
+    }
+    #deman{
+        width: 70px;
+    }
+    .card3{
+        border: 10px solid rgb(255, 195, 117) ;
+        width: 50%;
+        
+    }
+    .card2{
+        width: 40%;
+        border: 10px solid rgb(255, 255, 117) ;
+        
+    }
+    .card4{
+        margin-left: 0px;
+        border: 10px solid rgb(117, 255, 117) ;
+        width: 40%;
+    
+    }
+    
+    .card5{
+        height:330px ;
+        margin-left: 50%;
+        border: 10px solid rgb(255, 149, 117) ;
+        padding-top: 0%;
+    }
+
+    /* ------ canteen ------- */
+    .food-name{
+        width: 95%;
+        height: 500px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 0px;
+        column-gap: 1px;
+    }
+    table{
+        width: 10%;
+        margin-left: 0%;
+        border-collapse: collapse;
+    }
+    th{
+        font-size: 11px;
+    }
+    td{
+        font-size: 10px;
+    }
+    /*------- sport ---------- */
+    .sport {
+        background-color: #f8f8f8;
+        width: 91%;
+        padding: 50px 15px;
+
+        
+    }
+    /* ---------Aerobic ------- */
+    .aerobic{
+        width: 94%;
+        padding: 50px 10px;
+        background-color: #fff;
+    }
+    /* ---------Contact ----------- */
+    .contactus{
+        width: 40%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 0%;
+        padding-right: 1%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .form-logo{
+        width: 70%;
+        background-color: #fff;
+        margin-left: 1%;
+        padding: 40px 20px;
+        border-radius: 20px 0px 0px 20px;
+    
+    }
+    .form-logo img{
+        width: 80px;
+        margin-left: 1px;
+    }
+    .form-logo h4{
+        font-size: 18px;
+        color:  #1ea9fa;
+        padding-left: 0px;
+    }
+    
+    .form-create{
+        width: 100%;
+        background-color: #fff;
+
+        padding: 30px;
+        padding-right: 10px;
+        border-left: 1px solid black;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    #fb{
+        width: 30px;
+    }
+    #telegram{
+        width: 50px;
+    }
+    #ig{
+        width: 30px;
+    }
+    /* ---------map ---------- */
+    iframe{
+        width: 100%;
+    }
+    /*------------ footer ------- */
+    footer{
+        background-color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        width: 100%;
+        padding: 5px;
+    }
+    .margin{
+        margin-left: 1px;
+    }
+    .footer-logo img{
+        width: 15px;
+        margin-top: 3px;
+        margin-right: 10px;
+    }
+    footer h4{
+        font-size: 10px;
+    }
+    footer a{
+        font-size: 9px;
+    }
+    footer p{
+        font-size: 9px;
+    }
+}
